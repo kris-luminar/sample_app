@@ -19,6 +19,6 @@ group :test do
   gem 'autotest-growl', '0.2.16'
 # FSEVENT_SLEEP="/Users/krisluminar/Downloads/svoop-autotest-fsevent-b143d0a/prebuilt/10.7/fsevent_sleep"  # moved to ~/.bash_profile since Gemfile doesn't set ENV vars for some reason
   gem 'autotest-fsevent'
-# gem 'spork', '0.9.0.rc8'
+  gem 'spork', '0.9.0.rc8'
   gem 'factory_girl_rails', '1.0'
 end
